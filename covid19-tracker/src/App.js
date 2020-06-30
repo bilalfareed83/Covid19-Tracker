@@ -14,8 +14,8 @@ function App() {
       <Suspense fallback="loading...">
         <Cards />
         <Suspense fallback="Loading">
-          {/* <CountriesResult /> */}
-          <CountryTable />
+          <CountriesResult />
+          {/* <CountryTable /> */}
         </Suspense>
       </Suspense>
     </div>
